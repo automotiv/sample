@@ -3,7 +3,11 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369162769512_1" label="Maven Parents" name="Maven Parents">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DemoSite" type="4"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369162785986_2" label="My Broadleaf Site" name="My Broadleaf Site"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369162785986_2" label="My Broadleaf Site" name="My Broadleaf Site">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/admin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/site" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369162744232_0" label="Window Working Set" name="Aggregate for window 1369162744231"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369162939604_4" label="Window Working Set" name="Aggregate for window 1369162939604"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369162943130_5" label="Multiple Working Sets" name="Aggregate:Maven Parents:My Broadleaf Site:Other Projects:">
