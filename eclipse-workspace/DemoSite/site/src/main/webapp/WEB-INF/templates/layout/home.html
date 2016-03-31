@@ -21,7 +21,12 @@
         <nav th:substituteby="layout/partials/nav" />
         <blc:content contentType="Homepage Banner Ad" />       
         <div id="banners" th:if="${contentItem !=null and contentItem['targetUrl'] != null and contentItem['imageUrl'] != null}">
-            <a th:href="@{${contentItem['targetUrl']}}"><img blc:src="@{${contentItem['imageUrl']}}" /></a>       
+        	<div class="home-carousel">
+				<div class="carousel-item"><a th:href="@{${contentItem['targetUrl']}}"><img blc:src="@{${contentItem['imageUrl']}}" /></a></div>
+				<div class="carousel-item"><a th:href="@{${contentItem['targetUrl']}}"><img blc:src="@{${contentItem['imageUrl']}}" /></a></div>
+				<div class="carousel-item"><a th:href="@{${contentItem['targetUrl']}}"><img blc:src="@{${contentItem['imageUrl']}}" /></a></div>
+			</div>
+                   
         </div>
         
         <blc:content contentType="Homepage Middle Promo Snippet" /> 
