@@ -1488,7 +1488,6 @@ li.promotion, ul.promotion {
 
 #checkout_content #cart_total, #checkout_content .shipping-info-read-only
 	{
-	height: 150px;
 }
 
 #checkout_content #cart_total h3, #checkout_content .shipping-info-read-only h3,
@@ -4739,4 +4738,8 @@ div#_header_content_fixed {
 }
  #billing_info_form{
  float:left;
+     width: 100%;
+ }
+ .billInfoSubmit{
+ 	float:right;
  }
