@@ -96,7 +96,7 @@
 			                       th:classappend="${#fields.hasErrors('address.city')}? 'fieldError'" />
 						</div>
 						<div class="form50 grid_item">
-							<label for="city"><span th:utext="#{cart.cityState}">State</span></label>
+							<label for="state"><span th:utext="#{cart.cityState}">State</span></label>
 			                <select id="state"  th:field="*{address.stateProvinceRegion}" size="1" style="width: 100%;"
 			                        class="required cloneable"
 			                        th:classappend="${#fields.hasErrors('address.stateProvinceRegion')}? 'fieldError'">
@@ -134,14 +134,12 @@
 			                <input type="tel"
 			                       id="address.phonePrimary"
 			                       name="address.phonePrimary"
-			                       th:if="*{address.phonePrimary==null}" class="field30 cloneable" />
+			                       th:if="*{address.phonePrimary==null}" class="field100 cloneable" />
 			           </div>
 			        </div>
 	            </div>
 	        </div>
-			<div class="grid">
-				
-			</div>
+			
             <div class="billInfoSubmit">
                 <input type="submit" class="medium red" value="Save Billing" />
             </div>
