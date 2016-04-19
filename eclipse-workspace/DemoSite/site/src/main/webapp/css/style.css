@@ -1053,13 +1053,20 @@ px
 
 #account #register, #account #login, #account #forgotPassword, #account #resetPassword,
 	#contactus {
-	width: 282px;
+	//width: 282px;
 	margin: 10px auto;
-	padding: 20px;
-	background: url('../img/sidebarbg.jpg') repeat;
+	//padding: 20px;
+	//background: url('../img/sidebarbg.jpg') repeat;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+	    display: block;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    background: #fff;
+    border-top: 4px solid #08c;
+    padding: 35px 25px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.08);
 }
 
 .manage-account-container {
@@ -1318,13 +1325,14 @@ li.promotion, ul.promotion {
 }
 
 .login_register {
-	margin: 20px 0 0;
-	float: left;
+	width: auto;
+    float: left;
+    margin-right: 20px;
 }
 
 .login_register_alt_links {
-	margin: 35px 0 0 30px;
-	float: left;
+		float: left;
+    margin-top: 10px;
 }
 
 #cart {
@@ -1659,7 +1667,7 @@ li.promotion, ul.promotion {
 }
 
 #cart_total #total_table tr td.discount {
-	color: #E40037;
+	    color: #08c;
 }
 
 #cart_promo {
@@ -4835,3 +4843,16 @@ background-color: transparent;
     background-color: #fbfbfb;
     margin-top: 10px;
   }
+    .register-header{
+  	font-size: 20px;
+    margin: 0 0 15px;
+    color: #08c;
+}
+#registrationForm .form100 label{
+	width:100%;
+	color:#777;
+}
+#registrationForm{
+	    width: 50%;
+    float: left;
+}
