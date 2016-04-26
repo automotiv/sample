@@ -98,11 +98,12 @@
         </constructor-arg>
     </bean>
    
-    
+   	<!-- Overridding with production values. -->
+    <!-- 
     <bean id="blMessageCreator" class="org.broadleafcommerce.common.email.service.message.NullMessageCreator">
         <constructor-arg ref="blMailSender"/>
     </bean>
-
+ 	-->
         
     <bean id="blEmailInfo" class="org.broadleafcommerce.common.email.service.info.EmailInfo">
         <property name="fromAddress"><value>admin@autonagrtools.com</value></property>
