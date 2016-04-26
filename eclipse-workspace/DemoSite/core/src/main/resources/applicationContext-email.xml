@@ -45,14 +45,14 @@
             </set>
         </property>
     </bean>
-	<!-- 
+	
     <bean id="blMessageCreator" class="org.broadleafcommerce.common.email.service.message.ThymeleafMessageCreator">
         <constructor-arg ref="blEmailTemplateEngine"/>
         <constructor-arg ref="blMailSender"/>
     </bean>
     
-     -->
     
+    <!-- 
     <bean id="blVelocityEngine" class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
         <property name="resourceLoaderPath" value="/WEB-INF/emailTemplates/" />
         <property name="velocityProperties">
@@ -63,7 +63,7 @@
             </value>
         </property>
     </bean>
-
+	
     <bean id="blMessageCreator" class="org.broadleafcommerce.common.email.service.message.VelocityMessageCreator">
         <constructor-arg ref="blVelocityEngine" />
         <constructor-arg ref="blMailSender" />
@@ -97,7 +97,7 @@
             </map>
         </constructor-arg>
     </bean>
-   
+    -->
    	<!-- Overridding with production values. -->
     <!-- 
     <bean id="blMessageCreator" class="org.broadleafcommerce.common.email.service.message.NullMessageCreator">
