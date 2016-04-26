@@ -45,13 +45,13 @@
             </set>
         </property>
     </bean>
-
+	<!-- 
     <bean id="blMessageCreator" class="org.broadleafcommerce.common.email.service.message.ThymeleafMessageCreator">
         <constructor-arg ref="blEmailTemplateEngine"/>
         <constructor-arg ref="blMailSender"/>
     </bean>
     
-    
+     -->
     
     <bean id="blVelocityEngine" class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
         <property name="resourceLoaderPath" value="/WEB-INF/emailTemplates/" />
