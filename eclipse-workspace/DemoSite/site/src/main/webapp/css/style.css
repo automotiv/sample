@@ -882,14 +882,18 @@ nav ul li:hover .sub-menu {
 nav ul li ul.sub-menu {
 	position: absolute;
 	list-style-type: none;
-	background-color: #FFFFFF;
 	z-index: 99999;
 	display: none;
 	width: 174px;
-	top: 179px;
+	top: 176px;
 	border-left: 1px solid #C8C3C1;
 	border-bottom: 1px solid #C8C3C1;
 	border-right: 1px solid #C8C3C1;
+	    border: 0;
+    border-top: 5px solid #08c;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+    padding: 10px 0 20px 0;
 }
 
 nav ul li ul.sub-menu li {
@@ -897,8 +901,9 @@ nav ul li ul.sub-menu li {
 	float: none;
 }
 
-nav ul li ul.sub-menu li:hover {
-	background-color: #E7E3E2;
+nav ul li ul.sub-menu a:hover {
+	//background-color: #E7E3E2;
+	text-decoration:underline;
 	-webkit-transition: background-color 0.1s ease-in;
 	-moz-transition: background-color 0.1s ease-in;
 	-o-transition: background-color 0.1s ease-in;
@@ -906,10 +911,15 @@ nav ul li ul.sub-menu li:hover {
 }
 
 nav ul li ul.sub-menu a {
-	font: 12px/35px 'Open Sans', Helvetica, sans-serif;
-	color: #342020;
+	font: 14px 'Open Sans', Helvetica, sans-serif;
+	line-height:1.5;
+	color: #777;
 	padding: 10px;
 	background: none;
+	    font-size: 14px;
+    font-weight: 400;
+    padding: 0 5px;
+    margin-top: 10px;
 }
 
 ul.sub-menu li:hover ul.secondary-menu {
@@ -1054,6 +1064,7 @@ px
 #account #register, #account #login, #account #forgotPassword, #account #resetPassword,
 	#contactus {
 	//width: 282px;
+	width: 50%;
 	margin: 10px auto;
 	//padding: 20px;
 	//background: url('../img/sidebarbg.jpg') repeat;
@@ -1331,10 +1342,15 @@ li.promotion, ul.promotion {
 }
 
 .login_register_alt_links {
+	clear:both;
 		float: left;
     margin-top: 10px;
 }
-
+.login-account:after{
+	content:"|";
+	    margin-left: 10px;
+    margin-right: 7px;
+}
 #cart {
 	width: 100%;
 	display: block;
@@ -4853,6 +4869,5 @@ background-color: transparent;
 	color:#777;
 }
 #registrationForm{
-	    width: 50%;
     float: left;
 }

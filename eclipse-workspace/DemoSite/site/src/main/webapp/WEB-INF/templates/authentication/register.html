@@ -6,7 +6,7 @@
     </head>
 	
     <div id="register" class="cf">
-    	<div class="form50">
+    	<div class="">
         	<h3><span th:utext="#{register.registerForAccount}">Register for an Account</span></h3>
         	<p><span th:utext="#{register.signUpNow}">Don't have an account yet? Sign up for one now to gain access to all our member tools</span>.</p>
 		</div>
@@ -43,9 +43,8 @@
                 <input class="register_button big red" type="submit" th:value="#{register.register}"/>
             </div>
             <div class="login_register_alt_links">
-                <a class="account" th:href="@{/login}"><span th:utext="#{register.login}">Login</span></a>
-                <br/>
-                <a class="account" th:href="@{/login/forgotPassword}"><span th:utext="#{register.forgotPassword}">Forgot Password</span></a>
+                <a class="account login-account" th:href="@{/login}"><span th:utext="#{register.login}">Login </span></a>
+                <a class="account" th:href="@{/login/forgotPassword}"><span th:utext="#{register.forgotPassword}">Forgot Password?</span></a>
             </div>
         </blc:form>
     </div>  
