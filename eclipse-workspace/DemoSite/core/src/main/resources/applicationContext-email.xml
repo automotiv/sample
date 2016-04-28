@@ -13,7 +13,7 @@
     
     <bean id="blMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <property name="host"><value>smtp.gmail.com</value></property>
-        <property name="port"><value>465</value></property>
+        <property name="port"><value>587</value></property>
         <property name="protocol"><value>smtp</value></property>
         <property name="username"><value>admin@autonagartools.com</value></property>
         <property name="password"><value>P@ajet231</value></property>
