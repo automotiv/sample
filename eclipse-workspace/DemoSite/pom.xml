@@ -359,6 +359,8 @@
     <modules>
         <module>admin</module>
         <module>core</module>
+		<module>custom</module>
         <module>site</module>
+		<module>restapi</module>
     </modules>
 </project>
